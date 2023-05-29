@@ -1,0 +1,94 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#gridContainer {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 1px;
+  margin: 0 auto; /* Added margin property */
+  margin-bottom: 20px;
+  width: fit-content; /* Adjusted width property */
+}
+
+
+.row {
+  display: contents;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.cell:hover {
+  background-color: #eee;
+}
+
+.cell:hover {
+  background-color: #eee;
+}
+
+.obstacle {
+  background-color: #444;
+}
+
+.start {
+  background-color: #2ecc71;
+}
+
+.goal {
+  background-color: #e74c3c;
+}
+
+.path {
+  background-color: #3498db;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #2980b9;
+}
+
+.github-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.github-button img {
+  width: 32px;
+  height: 32px;
+}
+
+.profile-image img {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  border-radius: 50%;
+} 
